@@ -84,6 +84,14 @@ S: 7e672e9c36ce287185d331b598c7e6cc348446a5 122.51.163.131:7005
 ```
 
 
+第四步: 查询cluster 节点主从信息
+
+```
+127.0.0.1:7006> cluster nodes
+
+```
+
+
 
 ## 相关阅读
 - https://blog.csdn.net/qq_34901049/article/details/99670449
