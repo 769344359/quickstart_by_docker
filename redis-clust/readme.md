@@ -1,6 +1,6 @@
 
 
-第一步,其中的`redis-cluster.tmpl` 的ip要改成自己的ip
+第一步,其中的`redis-cluster.tmpl` 的ip要改成自己的ip, 执行下面`shell`
 ```
 for port in `seq 7001 7006`; do \
   mkdir -p ./redis-cluster/${port}/conf \
